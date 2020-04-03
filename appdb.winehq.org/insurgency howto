@@ -1,0 +1,14 @@
+­<em>Insurgency ­HOWTO</em>­­
+<br />
+<br /><strong>Installation:</strong>­­
+<br />­
+<br />
+Run `wine steam -applaunch 17700` to invoke the installation.
+<br />
+<br /><strong>Issues:</strong>
+<br />
+<br />
+A tricky font <a href="http://bugs.winehq.org/show_bug.cgi?id=7698">bug</a> can cause Source games to crash sporadically, or in Insurgency's case, at startup. Use winecfg to set the Windows version to "Windows 98" for the hl2.exe executable.
+<br />
+<br />
+Some sound cards/devices (usually those without hardware mixing) or the pulseaudio daemon can cause Insurgency to crash on startup. If you are affected, try using winecfg to set "DirectSound Hardware Acceleration" to "Emulation".

@@ -1,0 +1,35 @@
+body {
+  background-color: #444444;
+}
+
+#main {
+  background-color: #e6e6e0;
+  margin: 0px auto;
+  margin-top: 20px;  
+  padding: 4px;
+
+  width: 600px;
+  height: 550px;
+}
+
+#form_controls {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  
+  width: 100px;
+}
+
+#form_result {
+  background-color: #ffffff;
+  border-color: #000000;
+  border-style: dotted;
+  border-width: 2px;
+
+  position: relative;
+  left: 180px;
+  top: -310px;  
+  
+  height: 100%;
+  width: 100%;
+}

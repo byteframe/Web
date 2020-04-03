@@ -1,0 +1,4 @@
+#inner_apps textarea {
+  width: 328px; height: 94%; overflow: auto; overflow-y: scroll;
+  resize: none;
+}

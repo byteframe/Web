@@ -1,0 +1,13 @@
+#checkoutform_pane {
+  border: 2px dotted #cc4444;
+  font-size: 14pt;
+  font-family: sans-serif;
+  text-align: center;
+  
+  padding: 6px;
+  margin-left: auto;
+  margin-right: auto; 
+     
+  height: 323px;
+  width: 429px;
+}

@@ -1,0 +1,49 @@
+<em>Unreal Tournament HOWTO</em>
+­­<br />
+­­<br />
+<strong>Installation</strong>
+­­­­<br />
+­­­­­­<br />
+Run 'Setup.exe' on the ­disc, being­ sure not to install the­ old DirectX versions.
+<br />
+­­­­<br />
+<strong>Patching</strong>
+­­­­<br />
+­<br />
+The last official patch is version 436. The version downloaded from Steam is also 436.
+<br />
+<br />
+<a href="http://unreal.epicgames.com/TournamentVersions.htm">http://unreal.epicgames.com/TournamentVersions.htm</a>
+<br />
+<br />
+You can also use the patches released by the UTPG project. They focus on addressing security vulnerabilities and are network compatible with 436, so they are recommended for hosting UT servers, but they may break support for some mods.
+<br />
+<br />
+<a href="http://www.utpg.org/patches/UTPGPatch451b.exe">http://www.utpg.org/patches/UTPGPatch451b.exe</a>
+<br />
+<br />
+<strong>Updated Graphics (Optional)</strong>
+<br />
+<br />
+The stock OpenGL renderer was never really finished. However, you can replace i­t with an alter­native that boasts new features.
+<br />
+<br />
+<a href="http://www.cwdohnal.com/utglr/utglr36.zip">http://www.cwdohnal.com/utglr/utglr36.zip</a>
+<br />
+­­<br />
+Extract the OpenGLDrv.dll to the '[installdir]/System' directory. Enable the renderer by setting "<i>GameRenderDevice</i>" to "<i>OpenGLDrv.OpenGLRenderDevice</i>" in '[installdir]/System/UnrealTournament.ini'. If you happen to have the second Unreal Tournament disc, you can use high-detail textures. Copy the files in the 'Textures' directory on the second disc to the 'Textures' on your hard drive (replacing any of the older files), and set "<i>UseS3TC</i>" to "<i>True</i>", under the "<i>[OpenGLDrv.OpenGLRenderDevice]</i>" section in '[installdir]/System/UnrealTournament.ini'. For more information on tuning the renderer (anistrophic filtering, anti-aliasing, etc) refer to the OpenGL section in <a href="http://oldunreal.com/patch/Oldunreal-Multimediaupdate.pdf">http://oldunreal.com/patch/Oldunreal-Multimediaupdate.pdf</a>.
+<br />
+<br />
+<strong>Issues</strong>
+<br />
+<br />
+The un-patched retail version has copy protection that causes wine to crash.
+<br />
+<br />
+In more recent wine, using the software renderer may crash the game with a segmentation fault. Use the OpenGL renderer detailed above, or set "<i>GameRenderDevice</i>" to "<i>D3DDrv.D3DRenderDevice</i>" in '[installdir]/System/UnrealTournament.ini'.
+<br />
+<br />
+For users of some intel or ati/amd graphics drivers, the game may display a black screen upon startup. Set the registry key "<i>HKEY_CURRENT_USER>Software>Wine>AppDefaults>UnrealTournament.exe>Direct3D>OffscreenRenderingMode</i>" to "<i>backbuffer</i>" to fix this.
+<br />
+<br />
+This game is based on an older game engine and may run at erratic speeds. This is usually due to the high performance of modern systems, but is also complicated by things like cpu frequency scaling and multicore processors. Before starting the game, change to the performance cpu frequency scaling governor, and if neccessary, limit the game to one core/cpu. If you are using the enhanced OpenGL renderer, you can have it limit the frame rate by setting "<i>FrameRateLimit</i>" to "<i>60</i>" and/or "<i>SwapInterval</i>" to "<i>1</i>" under the "<i>[OpenGLDrv.OpenGLRenderDevice]</i>" section in '[installdir]/System/UnrealTournament.ini'.

@@ -1,0 +1,9 @@
+body { margin: 10px; }
+fieldset { border: 1px solid #000000; width: 250px; }
+legend { border: 1px solid; padding: 4px 4px;}
+table {text-align: left; }
+/* form alignment: http://www.quirksmode.org/css/forms.html */
+label, input { display: block; float: left; margin-bottom: 5px; width: 150px; }
+input.button { width: 50%; }
+label { padding-right: 20px; text-align: right; width: 75px; }
+br { clear: left; }

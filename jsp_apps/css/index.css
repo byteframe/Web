@@ -1,0 +1,46 @@
+body {
+  background-color: #404040;
+  color: #000000;
+}
+
+#system_checker {
+  background-color: #fdfdfd;
+  font-size: 16pt;
+  font-weight: bold;
+
+  height: 92px;
+  width: 92px;
+  padding: 4px;
+    
+  position: relative;
+  left: 24px;
+  top: 24px;
+}
+
+#soldier_creation {
+  background-color: #fdfdfd;
+  font-size: 16pt;
+  font-weight: bold;
+  
+  height: 92px;
+  width: 92px;
+  padding: 4px;  
+
+  position: relative;
+  left: 24px;
+  top: 72px;
+}
+
+#shopping_cart {
+  background-color: #fdfdfd;
+  font-size: 16pt;
+  font-weight: bold;
+  
+  height: 92px;
+  width: 92px;
+  padding: 4px;
+    
+  position: relative;
+  left: 24px;
+  top: 120px;
+}

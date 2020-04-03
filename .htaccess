@@ -1,0 +1,6 @@
+DirectoryIndex primarydataloop.php
+Options -Indexes
+#Options +FollowSymlinks
+#RewriteEngine On
+#RewriteRule    ^nav/([A-Za-z0-9-]+)/?$    primarydataloop.php?nav=$1    [NC,L]
+#RewriteRule    ^app/([A-Za-z0-9-]+)/?$    primarydataloop.php?app=$1    [NC,L]

@@ -1,0 +1,13 @@
+#content_pane {
+  border: 2px dotted #cc4444;
+  font-family: sans-serif;
+  
+  padding: 6px;
+     
+  height: 323px;
+  width: 617px;
+}
+
+#carttext_pane {
+  margin-left: 16px;
+}

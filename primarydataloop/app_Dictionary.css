@@ -1,0 +1,11 @@
+/*#dictionary {
+  width: 100%;
+  display: table;
+  background-color: red;
+}
+
+#dictionary > * { display: table-cell; }
+#dictionary > span { display: block; overflow: hidden; }
+*/
+
+#dictionary > div { float: left; width: 50%; }

@@ -1,0 +1,46 @@
+<em>­Starsiege ­HOWTO</em>
+<br/>
+<br/>
+<strong>Installation</strong>
+<br/>
+<br/>
+Run 'setup/Setup.exe' on the disc (buddy disc in the two-disc version), being sure not to register or auto update.
+<br/>
+<br/>
+<strong>Patching</strong>
+<br />
+<br />
+If you are using the older two-disc version, you will have to apply the 1004 patch.
+<br />
+<br />
+<a href="http://www.sierrahelp.com/Files/Patches/MetalTech/Starsiege(s1000to1004_usa).zip">http://www.sierrahelp.com/Files/Patches/MetalTech/Starsiege(s1000to1004_usa).zip</a>
+<br/>
+<br/>
+Also, you'll probably want to apply the NOCD patch.
+<br/>
+<br/>
+<a href="https://skydrive.live.com/?cid=aca2b7c7635ceba3&sc=documents&id=ACA2B7C7635CEBA3%21919#">https://skydrive.live.com/?cid=aca2b7c7635ceba3&sc=documents&id=ACA2B7C7635CEBA3%21919#</a>
+<br/>
+<br/>
+The original master server is not available, but the community maintains one for those who still want to play online.
+<br/>
+<br/>
+<a href="http://www.starsiege1.proboards.com/index.cgi?board=newmasterhere&action=display&thread=67">http://www.starsiege1.proboards.com/index.cgi?board=newmasterhere&action=display&thread=67</a>
+<br/>
+<br/>
+<strong>Issues</strong>
+<br/>
+<br/>
+The installer is old, and may crash in more recent distributions. See <a href="http://wiki.winehq.org/PreloaderPageZeroProblem">http://wiki.winehq.org/PreloaderPageZeroProblem</a>.
+<br/>
+<br/>
+The game may often start minimized.
+<br/>
+<br/>
+The default pause key is NUMLOCK, and if unchanged, the game will pause on any key press while NUMLOCK is active. Change this key binding, or toggle NUMLOCK.
+<br/>
+<br/>
+With 3D acceleration enabled, texture overlays (like pavement on a section of terrain) will not render, and the game will start in windowed mode.
+<br/>
+<br/>
+Pressing ALT+ENTER to toggle between fullscreen and windowed mode is not recognized. To change the screen mode, set "<i>$pref::GWC::SIM_IS_FULLSCREEN</i>" to "<i>True</i>" in '[installdir]/defaultPrefs.cs'.

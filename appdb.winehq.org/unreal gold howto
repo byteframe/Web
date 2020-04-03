@@ -1,0 +1,40 @@
+­<em>­Unreal Gold HOWTO</em>­­­­
+­­­­<br />
+­­­­<br />
+<strong>Installation</strong>­­
+<br />
+­­<br />
+Run 'SETUP.EXE' on the ­disc, being­ sure not to install the­ old DirectX versions.
+<br />
+­­<br />
+<strong>Patching</strong>­
+<br />
+­<br />
+If you are using the version that is part of the anthology pack or was downloaded from steam, you will encounter (yet another) network incompatibility bug. You will not be able to join any non-gold servers, and if you host a server with these versions it will only be compatible with other clients running the anthology version. To remedy this problem, apply the following patch, being sure it installs to the correct location.
+­<br />
+<br />
+<a href="http://oldunreal.com/patch/AnthologyUnrealGoldPatchV1.0.exe">http://oldunreal.com/patch/AnthologyUnrealGoldPatchV1.0.exe</a>
+<br />
+<br />
+<strong>Updated Graphics (Optional)</strong>
+<br />
+<br />
+The stock OpenGL renderer was never really finished. However, you can replace i­t with an alter­native that boasts new features.
+<br />
+<br />
+<a href="http://oldunreal.com/patch/OMP-UGOLD-V0.2.zip">http://oldunreal.com/patch/OMP-UGOLD-V0.2.zip</a>
+<br />
+­­<br />
+Extract 'OpenGLDrv.dll', 'OpenGlDrv.int', 'Unreal.exe', 'UCC.exe', and 'Setup.exe' to the '[installdir]/System' directory. Enable the renderer by setting "<i>GameRenderDevice</i>" to "<i>OpenGLDrv.OpenGLRenderDevice</i>" in '[installdir]/System/Unreal.ini'. If you happen to have the second Unreal Tournament disc, you can use high-detail textures. Read 'S3TCext.txt' provided with the zip file for instructions on how to convert and use the textures. For more information on tuning the renderer (anistrophic filtering, anti-aliasing, etc) refer to the OpenGL section in <a href="http://oldunreal.com/patch/Oldunreal-Multimediaupdate.pdf">http://oldunreal.com/patch/Oldunreal-Multimediaupdate.pdf</a>.
+<br />
+­­<br />
+<strong>Issues</strong>
+<br />
+<br />
+In more recent wine, using the software renderer may crash the game with a segmentation fault. Use the OpenGL renderer detailed above, or set "<i>GameRenderDevice</i>" to "<i>D3DDrv.D3DRenderDevice</i>" in '[installdir]/System/Unreal.ini'.
+<br />
+<br />
+For users of some intel or ati/amd graphics drivers, the game may display a black screen upon startup. Set the registry key "<i>HKEY_CURRENT_USER>Software>Wine>AppDefaults>Unreal.exe>Direct3D>OffscreenRenderingMode</i>" to "<i>backbuffer</i>" to fix this.
+<br />
+<br />
+This game is based on an older game engine and may run at erratic speeds. This is usually due to the high performance of modern systems, but is also complicated by things like cpu frequency scaling and multicore processors. Before starting the game, change to the performance cpu frequency scaling governor, and if neccessary, limit the game to one core/cpu. If you are using the enhanced OpenGL renderer, you can have it limit the frame rate by setting "<i>FrameRateLimit</i>" to "<i>60</i>" and/or "<i>SwapInterval</i>" to "<i>1</i>" under the "<i>[OpenGLDrv.OpenGLRenderDevice]</i>" section in '[installdir]/System/Unreal.ini'.

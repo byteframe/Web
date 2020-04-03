@@ -1,0 +1,12 @@
+#inner_apps div {
+  height: 100%;
+  width: 187px;
+  float: left;
+  margin-right: 4px;
+}
+
+#inner_apps table {
+  float: left;
+  margin: -2px;
+  text-align: right;
+}

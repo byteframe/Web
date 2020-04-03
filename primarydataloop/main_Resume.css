@@ -1,0 +1,14 @@
+#main_resume {
+  font-family: sans-serif;
+  font-size: x-small;
+}
+#main_resume table { border-collapse: collapse; }
+#main_resume td, #main_resume th { border-top: 2px solid #000; }
+#main_resume td { padding-right: 0.5em; }
+#main_resume th { padding-left: 0.5em;
+  background: #aaa;
+  font-style: italic;
+  text-align: right;
+  vertical-align: top;
+}
+#main_resume ul { padding-left: 3em; }

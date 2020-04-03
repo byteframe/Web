@@ -1,0 +1,41 @@
+#content_pane {
+  border: 2px dotted #cc4444;
+  font-size: 20pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  
+  padding: 6px;
+     
+  height: 323px;
+  width: 617px;
+}
+
+#promopic_pane {  
+  height: 193px;
+  
+  margin-left: 30px; 
+}
+
+.promo_boxes {
+  background-color: #ede9bb;
+  border: 6px solid #888888;
+  
+  height: 155px;
+  width: 157px;
+  
+  position: relative;
+}
+
+#promo1_box {
+  left: 10px;
+  top: 10px;
+}
+#promo2_box {  
+  left: 194px; 
+  top: -157px;
+}
+#promo3_box {  
+  left: 379px;
+  top: -324px;
+}

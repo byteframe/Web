@@ -1,0 +1,74 @@
+body {
+  background-color: #404040;
+  color: #000000;
+  
+  margin: 44px auto;
+  text-align: center:
+}
+
+#main {
+  margin: 0px auto;
+  text-align: left;
+  
+  width: 360px;
+}
+
+#title {
+  background-color: #fdfdfd;
+  color: #000000;
+  
+  text-align: center;
+  
+  padding: 5px;
+  
+  height: 50px;
+  width: 350px;
+}
+
+#scorecard {
+  background-color: #fdfdfd;
+  
+  color: #000000;
+  font-size: 10pt;
+  
+  padding: 5px;
+  
+  height: 240px;
+  width: 350px;
+  
+  position: relative;
+  top: 10px;  
+}
+
+.scorecard_header {
+  text-align: center;
+}
+
+#icons {
+  background-color: #fdfdfd;
+  
+  color: #000000;
+  font-size: 10pt;
+  
+  text-align: center;
+  
+  padding: 5px;
+  
+  height: 96px;
+  width: 350px;
+
+  position: relative;
+  top: 20px;
+}
+
+.os_image {
+  position: relative;
+  margin-right: 30px;
+}
+.browser_image {
+  position: relative;
+}
+.java_image {
+  position: relative;
+  margin-left: 30px;
+}
